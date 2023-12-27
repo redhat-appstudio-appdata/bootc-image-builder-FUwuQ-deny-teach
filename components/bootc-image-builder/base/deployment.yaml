@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bootc-image-builder
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:f23e607ed06266ab2f0ea462d04c63fb96a06160931844e3fb1249b0a27b43d3
+      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:9ad4c6a09030cd40177b3ef5414d7759d91352063543dcb56d655c3a94865c58
         imagePullPolicy: Always
         name: container-image
         ports:
